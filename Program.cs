@@ -32,7 +32,7 @@ namespace TigerSoccerClub
             int initalamt_adult = 230;
 
             //these lines of codes are for aligning items to center and contains heading portion
-            string s = "*****Welcome to TigerSoccerClub*****";
+            string s = "*****Welcome*****";
             Console.SetCursorPosition((Console.WindowWidth - s.Length) / 2, Console.CursorTop);
             Console.WriteLine(s);
 
@@ -41,7 +41,7 @@ namespace TigerSoccerClub
 
             if (Players > 4 || Players < 1)
             {
-                Console.WriteLine("Invalid number, Please enter the registration number betweeen 1 to 4");
+                Console.WriteLine("Invalid number");
             }
             else
             {
